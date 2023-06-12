@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClearCounter : MonoBehaviour, IKitchenObjectParent
+public class ClearCounter : BaseCounter, IKitchenObjectParent
 {
     [SerializeField] private Transform counterTopPoint;
     [SerializeField] private KitchenObject_SO kitchenObjectSO;
@@ -10,7 +10,7 @@ public class ClearCounter : MonoBehaviour, IKitchenObjectParent
     private KitchenObject kitchenObject;
 
 
-    public void Interact(PlayerController player)  
+    public override void Interact(PlayerController player)  
     {
         if(kitchenObject == null) {
             Transform kitchenObjectTransform = Instantiate(kitchenObjectSO.prefab, counterTopPoint);
