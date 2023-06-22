@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 859dd6e9353c1114eb2921d2d3753618, type: 3}
-  m_Name: Plate
+  m_Script: {fileID: 11500000, guid: 6c0c67afa6ea9a147a7ee897ffc57035, type: 3}
+  m_Name: EggWhole-EggSlice
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3207481500070251591, guid: 71655e73d48099042ba72ad22ec7e2f0, type: 3}
-  sprite: {fileID: 21300000, guid: 3928afb5321bb3d489bbd4ac581b29a2, type: 3}
-  objectName: Plate
+  input: {fileID: 11400000, guid: 975e65acb94593b42ab2eaac38bef0d7, type: 2}
+  output: {fileID: 11400000, guid: 9a47d0ea4c9159845a6a918951def712, type: 2}
+  cuttingProgressMax: 1

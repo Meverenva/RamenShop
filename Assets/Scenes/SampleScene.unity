@@ -271,7 +271,11 @@ PrefabInstance:
     - target: {fileID: 137758050352123789, guid: bf496fdbeb8efe049918459f8e5ae13a,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< Updated upstream
       value: 11
+=======
+      value: 10
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 137758050352123789, guid: bf496fdbeb8efe049918459f8e5ae13a,
         type: 3}
@@ -843,7 +847,11 @@ PrefabInstance:
     - target: {fileID: 7752134049629051314, guid: 80dc257dfd98a0146955653b372ad3b1,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< Updated upstream
       value: 13
+=======
+      value: 12
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7752134049629051314, guid: 80dc257dfd98a0146955653b372ad3b1,
         type: 3}
@@ -1059,7 +1067,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756580833}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.09, z: 0}
+  m_LocalPosition: {x: 0, y: 1.033, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1355,6 +1363,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1153111808043970939, guid: 83bd3f5f2ba702d479e665b88187abe7,
+        type: 3}
+      propertyPath: plateKitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 753e08a1d4c52ae46885c788e5ef15b4,
+        type: 2}
     - target: {fileID: 3951972906782018009, guid: 83bd3f5f2ba702d479e665b88187abe7,
         type: 3}
       propertyPath: m_RootOrder
@@ -1565,7 +1579,11 @@ PrefabInstance:
     - target: {fileID: 137758050352123789, guid: bf496fdbeb8efe049918459f8e5ae13a,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< Updated upstream
       value: 17
+=======
+      value: 16
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 137758050352123789, guid: bf496fdbeb8efe049918459f8e5ae13a,
         type: 3}
@@ -1764,7 +1782,11 @@ PrefabInstance:
     - target: {fileID: 137758050352123789, guid: bf496fdbeb8efe049918459f8e5ae13a,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< Updated upstream
       value: 15
+=======
+      value: 14
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 137758050352123789, guid: bf496fdbeb8efe049918459f8e5ae13a,
         type: 3}

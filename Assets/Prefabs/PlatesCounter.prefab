@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platesCounter: {fileID: 1153111808043970939}
   counterTopPoint: {fileID: 3825447057063044489}
-  plateVisualPrefab: {fileID: 7011898012429493639, guid: 4fd153134ec8bf64e9e074bfd72eccce,
+  plateVisualPrefab: {fileID: 3207481500070251591, guid: 12324787fb89a2d4691991ecc654c090,
     type: 3}
 --- !u!1 &4870628308179757979
 GameObject:
