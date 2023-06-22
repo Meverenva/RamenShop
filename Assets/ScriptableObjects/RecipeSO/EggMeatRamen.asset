@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564e292e485d18a488a4f88a16aedee4, type: 3}
-  m_Name: New Recipe SO
+  m_Name: EggMeatRamen
   m_EditorClassIdentifier: 
   kitchenObjectSOList:
   - {fileID: 11400000, guid: 9a47d0ea4c9159845a6a918951def712, type: 2}
