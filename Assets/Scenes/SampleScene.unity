@@ -271,11 +271,7 @@ PrefabInstance:
     - target: {fileID: 137758050352123789, guid: bf496fdbeb8efe049918459f8e5ae13a,
         type: 3}
       propertyPath: m_RootOrder
-<<<<<<< Updated upstream
-      value: 11
-=======
       value: 10
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 137758050352123789, guid: bf496fdbeb8efe049918459f8e5ae13a,
         type: 3}
@@ -847,11 +843,7 @@ PrefabInstance:
     - target: {fileID: 7752134049629051314, guid: 80dc257dfd98a0146955653b372ad3b1,
         type: 3}
       propertyPath: m_RootOrder
-<<<<<<< Updated upstream
-      value: 13
-=======
       value: 12
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7752134049629051314, guid: 80dc257dfd98a0146955653b372ad3b1,
         type: 3}
@@ -1579,11 +1571,7 @@ PrefabInstance:
     - target: {fileID: 137758050352123789, guid: bf496fdbeb8efe049918459f8e5ae13a,
         type: 3}
       propertyPath: m_RootOrder
-<<<<<<< Updated upstream
-      value: 17
-=======
       value: 16
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 137758050352123789, guid: bf496fdbeb8efe049918459f8e5ae13a,
         type: 3}
@@ -1782,11 +1770,7 @@ PrefabInstance:
     - target: {fileID: 137758050352123789, guid: bf496fdbeb8efe049918459f8e5ae13a,
         type: 3}
       propertyPath: m_RootOrder
-<<<<<<< Updated upstream
-      value: 15
-=======
       value: 14
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 137758050352123789, guid: bf496fdbeb8efe049918459f8e5ae13a,
         type: 3}
