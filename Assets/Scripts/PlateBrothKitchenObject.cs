@@ -4,14 +4,26 @@ using UnityEngine;
 
 public class PlateBrothKitchenObject : KitchenObject
 {
+    [SerializeField] private List<KitchenObject_SO> validKitchenObjectSOList;
     private List<KitchenObject_SO> kitchenObjectSOList;
-
+     
     private void Awake()
     {
         kitchenObjectSOList = new List<KitchenObject_SO>();
     }
-    public void AddIngredient(KitchenObject_SO kitchenObjectSO)
+    public bool TryAddIngredient(KitchenObject_SO kitchenObjectSO)
     {
-        kitchenObjectSOList.Add(kitchenObjectSO);
+        if(!validKitchenObjectSOList.Contains(kitchenObjectSO))
+        {
+            return false;
+        }
+        if(kitchenObjectSOList.Contains(kitchenObjectSO))
+        {
+            return false;
+        } else
+        {
+            kitchenObjectSOList.Add(kitchenObjectSO);
+            return true;
+        }
     }
 }

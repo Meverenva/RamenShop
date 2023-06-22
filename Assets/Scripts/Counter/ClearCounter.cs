@@ -5,6 +5,8 @@ using UnityEngine;
 public class ClearCounter : BaseCounter
 {
 
+
+
     [SerializeField] private KitchenObject_SO kitchenObjectSO;
 
 
@@ -21,7 +23,13 @@ public class ClearCounter : BaseCounter
         {
             if(player.HasKitchenObject())
             {
-
+                if(player.GetKitchenObject().TryGetBrothPlate(out PlateBrothKitchenObject plateBrothKitchenObject))
+                {
+                    if(plateBrothKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectSO()))
+                    {
+                        GetKitchenObject().DestroySelf();
+                    }
+                }
             } else
             {
                 GetKitchenObject().SetKitchenObjectParent(player);
