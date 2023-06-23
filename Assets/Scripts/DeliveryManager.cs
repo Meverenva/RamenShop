@@ -1,9 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class DeliveryManager : MonoBehaviour
 {
+    public event EventHandler OnRecipeSuccess;
+    public event EventHandler OnRecipeFailed;
+
+
     public static DeliveryManager Instance { get; private set; }
     [SerializeField] private RecipeListSO recipeListSO;
     
@@ -27,7 +32,7 @@ public class DeliveryManager : MonoBehaviour
             spawnRecipeTimer = spawnRecipeTimerMax;
             if(waitingRecipeSOList.Count < waitingRecipesMax ) 
             { 
-            RecipeSO waitingRecipeSO = recipeListSO.recipeSOList[Random.Range(0, recipeListSO.recipeSOList.Count)];
+            RecipeSO waitingRecipeSO = recipeListSO.recipeSOList[UnityEngine.Random.Range(0, recipeListSO.recipeSOList.Count)];
                 Debug.Log(waitingRecipeSO.recipeName);
             waitingRecipeSOList.Add(waitingRecipeSO);
             }
@@ -63,12 +68,14 @@ public class DeliveryManager : MonoBehaviour
                     //poprawny przepis
                     Debug.Log("Oddano przepis!");
                     waitingRecipeSOList.RemoveAt(i);
+                    OnRecipeSuccess?.Invoke(this, EventArgs.Empty);
                     return;
                 }
             }
         }
         //Nie znaleziono przepisu
         //Gracz nie przekazal poprawnego przepisu
+        OnRecipeFailed?.Invoke(this, EventArgs.Empty);
         Debug.Log("Gracz nie przekazal poprawnego przepisu");
     }
 }

@@ -9,10 +9,13 @@ public class BrothCounter : BaseCounter
 
     public override void Interact(PlayerController player)
     {
-        if(player.GetKitchenObject().GetKitchenObjectSO() == plateKitchenObjectSO)
+        if(player.HasKitchenObject())
         {
-            player.GetKitchenObject().DestroySelf();
-            KitchenObject.SpawnKitchenObject(brothKitchenObjectSO, player);
+            if (player.GetKitchenObject().GetKitchenObjectSO() == plateKitchenObjectSO)
+            {
+                player.GetKitchenObject().DestroySelf();
+                KitchenObject.SpawnKitchenObject(brothKitchenObjectSO, player);
+            }
         }
     }
 }

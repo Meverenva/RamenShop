@@ -52,7 +52,6 @@ public class StoveCounter : BaseCounter, IHasProgress
                     if (fryingTimer > fryingRecipeSO.fryingTimerMax)
                     {
                         fryingTimer = 0f;
-                        Debug.Log("Fried!");
                         GetKitchenObject().DestroySelf();
                         KitchenObject.SpawnKitchenObject(fryingRecipeSO.output, this);
                         state = State.Fried;
@@ -72,7 +71,6 @@ public class StoveCounter : BaseCounter, IHasProgress
                     if (burningTimer > burningRecipeSO.burningTimerMax)
                     {
                         burningTimer = 0f;
-                        Debug.Log("Burned!");
                         GetKitchenObject().DestroySelf();
                         KitchenObject.SpawnKitchenObject(burningRecipeSO.output, this);
                         state = State.Burned;
@@ -89,7 +87,6 @@ public class StoveCounter : BaseCounter, IHasProgress
                 case State.Burned:
                     break;
             }
-            Debug.Log(state);
         }    
     }
     public override void Interact(PlayerController player)
