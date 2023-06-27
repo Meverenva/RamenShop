@@ -7,6 +7,15 @@ using static PlateCompleteVisual;
 
 public class CustomerManager : MonoBehaviour
 {
+
+
+    public event EventHandler<OnCustomerStateChangeEventArgs> OnCustomerAssigned;
+    public event EventHandler<OnCustomerStateChangeEventArgs> OnCustomerRemove;
+    public class OnCustomerStateChangeEventArgs : EventArgs
+    {
+        public RecipeSO_GameObject recipeSOGameObject;
+    }
+
     [Serializable]
     public struct RecipeSO_GameObject
     {
@@ -40,6 +49,10 @@ public class CustomerManager : MonoBehaviour
                 recipeSOGameObject.gameObject.SetActive(false);
                 inactiveCustomersList.Add(recipeSOGameObject.gameObject);
                 RecipeSOGameObjectList.Remove(recipeSOGameObject);
+                OnCustomerRemove?.Invoke(this, new OnCustomerStateChangeEventArgs
+                {
+                    recipeSOGameObject = recipeSOGameObject,
+                });
                 break;
             }
         }
@@ -52,6 +65,10 @@ public class CustomerManager : MonoBehaviour
         recipeSOGameObject.gameObject = inactiveCustomersList[0];
         recipeSOGameObject.gameObject.SetActive(true);
         inactiveCustomersList.RemoveAt(0);
+        OnCustomerAssigned?.Invoke(this, new OnCustomerStateChangeEventArgs
+        {
+            recipeSOGameObject = recipeSOGameObject
+        });
         RecipeSOGameObjectList.Add(recipeSOGameObject);
     }
 }
