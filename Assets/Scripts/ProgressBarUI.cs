@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,8 @@ public class ProgressBarUI : MonoBehaviour
 {
     [SerializeField] private GameObject hasProgressGameObject;
     [SerializeField] private Image barImage;
+    [SerializeField] private List<Image> barImages;
+
 
     private IHasProgress hasProgress;
 
@@ -36,11 +39,18 @@ public class ProgressBarUI : MonoBehaviour
 
     private void Show()
     {
+        foreach(Image image in barImages) {
+            image.DOFade(1, .5f);
+        }
         gameObject.SetActive(true);
     }
 
     private void Hide()
     {
+        foreach (Image image in barImages)
+        {
+            image.DOFade(0, .5f);
+        }
         gameObject.SetActive(false) ;
     }
 }

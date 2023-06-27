@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,8 @@ public class DeliveryManagerUI : MonoBehaviour
     [SerializeField] private CustomerManager customerManager;
     [SerializeField] private Transform container;
     [SerializeField] private Transform recipeTemplate;
+
+    private float recipeYEndValue = -1;
 
 
     private void Start()

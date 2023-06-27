@@ -278,7 +278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -438, y: -33}
+  m_AnchoredPosition: {x: -438, y: -26}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &127318348
@@ -698,7 +698,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 347e39c32a88bd44bb2e4ff148c206dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0, g: 0, b: 0, a: 0}
+  color:
+    serializedVersion: 2
+    rgba: 4278190080
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1844,7 +1846,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 347e39c32a88bd44bb2e4ff148c206dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.8584906, g: 0.7175326, b: 0.132823, a: 0}
+  color:
+    serializedVersion: 2
+    rgba: 4279877349
 --- !u!1001 &747764876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2072,7 +2076,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 347e39c32a88bd44bb2e4ff148c206dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.8490566, g: 0.09131358, b: 0.09131358, a: 0}
+  color:
+    serializedVersion: 2
+    rgba: 4279966712
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -3086,7 +3092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -13}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1528639510
