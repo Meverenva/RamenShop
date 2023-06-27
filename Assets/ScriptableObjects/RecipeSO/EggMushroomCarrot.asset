@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564e292e485d18a488a4f88a16aedee4, type: 3}
+  m_Name: EggMushroomCarrot
+  m_EditorClassIdentifier: 
+  kitchenObjectSOList:
+  - {fileID: 11400000, guid: 9a47d0ea4c9159845a6a918951def712, type: 2}
+  - {fileID: 11400000, guid: c13e8f35e03664944b2d71547ec38aab, type: 2}
+  - {fileID: 11400000, guid: 0645c577943078d40ad7bc2dc2c031f7, type: 2}
+  recipeName: EggMushroomCarrot
