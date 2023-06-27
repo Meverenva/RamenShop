@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ChivesSlices
   m_EditorClassIdentifier: 
   prefab: {fileID: 9167080178200454770, guid: 2cc017259a1469f44b8b83d969f2e62b, type: 3}
-  sprite: {fileID: 21300000, guid: c9f08c3c1ae2a364aaeaa3712540b1d4, type: 3}
+  sprite: {fileID: 21300000, guid: e1cc90f29712e9944abb78d96110eef7, type: 3}
   objectName: Chives Slices
