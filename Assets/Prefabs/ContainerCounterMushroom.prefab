@@ -286,6 +286,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4857982227500288103}
     m_Modifications:
+    - target: {fileID: 3080912216174581243, guid: 423c3777c187c6347b251ffed4c429cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     - target: {fileID: 3585257993917232174, guid: 423c3777c187c6347b251ffed4c429cc,
         type: 3}
       propertyPath: m_Name
@@ -526,6 +531,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: mushroom chopped (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5877328425568700308, guid: 7f0d0aa1dd4dd4842997cffe19d9029a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f0d0aa1dd4dd4842997cffe19d9029a, type: 3}
 --- !u!4 &5047493230387295446 stripped
@@ -706,6 +716,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: mushroom chopped (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5877328425568700308, guid: 7f0d0aa1dd4dd4842997cffe19d9029a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f0d0aa1dd4dd4842997cffe19d9029a, type: 3}
 --- !u!4 &5235708175071505813 stripped
@@ -721,6 +736,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4857982227500288103}
     m_Modifications:
+    - target: {fileID: 3080912216174581243, guid: 423c3777c187c6347b251ffed4c429cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     - target: {fileID: 3585257993917232174, guid: 423c3777c187c6347b251ffed4c429cc,
         type: 3}
       propertyPath: m_Name
@@ -886,6 +906,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: mushroom chopped (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5877328425568700308, guid: 7f0d0aa1dd4dd4842997cffe19d9029a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f0d0aa1dd4dd4842997cffe19d9029a, type: 3}
 --- !u!4 &5876918781869478439 stripped
@@ -901,6 +926,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4857982227500288103}
     m_Modifications:
+    - target: {fileID: 3080912216174581243, guid: 423c3777c187c6347b251ffed4c429cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     - target: {fileID: 3585257993917232174, guid: 423c3777c187c6347b251ffed4c429cc,
         type: 3}
       propertyPath: m_Name
@@ -1084,7 +1114,7 @@ PrefabInstance:
     - target: {fileID: 1568367808300241795, guid: 0d626e61f86d0404e8630b62422c1260,
         type: 3}
       propertyPath: m_Name
-      value: ContainerCounter
+      value: ContainerCounterMushroom
       objectReference: {fileID: 0}
     - target: {fileID: 3361261329046089928, guid: 0d626e61f86d0404e8630b62422c1260,
         type: 3}
@@ -1392,10 +1422,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4857982227500288103}
     m_Modifications:
+    - target: {fileID: 3080912216174581243, guid: 423c3777c187c6347b251ffed4c429cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     - target: {fileID: 3585257993917232174, guid: 423c3777c187c6347b251ffed4c429cc,
         type: 3}
       propertyPath: m_Name
       value: mushroom whole
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585257993917232174, guid: 423c3777c187c6347b251ffed4c429cc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4218383609475673748, guid: 423c3777c187c6347b251ffed4c429cc,
         type: 3}
@@ -1647,6 +1687,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: mushroom chopped
       objectReference: {fileID: 0}
+    - target: {fileID: 5877328425568700308, guid: 7f0d0aa1dd4dd4842997cffe19d9029a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f0d0aa1dd4dd4842997cffe19d9029a, type: 3}
 --- !u!4 &404017348113714660 stripped
@@ -2022,6 +2067,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4857982227500288103}
     m_Modifications:
+    - target: {fileID: 3080912216174581243, guid: 423c3777c187c6347b251ffed4c429cc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     - target: {fileID: 3585257993917232174, guid: 423c3777c187c6347b251ffed4c429cc,
         type: 3}
       propertyPath: m_Name
@@ -2192,6 +2242,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8225740683496855828, guid: c463cb7f4fcf9594f83274452414c6ad,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c463cb7f4fcf9594f83274452414c6ad, type: 3}
 --- !u!1 &1235219046304582972 stripped

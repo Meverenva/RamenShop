@@ -196,15 +196,6 @@ MonoBehaviour:
   baseCounter: {fileID: 6739674683511235240}
   visualGameObjectArray:
   - {fileID: 1235219046304582972}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1001 &354546428710161490
 PrefabInstance:
   m_ObjectHideFlags: 0

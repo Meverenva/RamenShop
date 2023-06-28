@@ -54,7 +54,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &459035700889843367
 Transform:
   m_ObjectHideFlags: 0
@@ -185,6 +185,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 730882065190857961, guid: 80dc257dfd98a0146955653b372ad3b1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 1235219046304582972, guid: 80dc257dfd98a0146955653b372ad3b1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473146221174200644, guid: 80dc257dfd98a0146955653b372ad3b1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4554967691724240742, guid: 80dc257dfd98a0146955653b372ad3b1,
         type: 3}
       propertyPath: m_Name
@@ -323,12 +338,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 459035700889843367}
     m_Modifications:
+    - target: {fileID: 999394017541573841, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1468555304007284944, guid: 2cc017259a1469f44b8b83d969f2e62b,
         type: 3}
       propertyPath: m_Name
       value: ChivesSlices (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1468555304007284944, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647881921328901380, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 6999205114154860490, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 7867875389053224122, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516503206285665647, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 8800833600915480095, guid: 2cc017259a1469f44b8b83d969f2e62b,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -424,12 +469,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 459035700889843367}
     m_Modifications:
+    - target: {fileID: 999394017541573841, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1468555304007284944, guid: 2cc017259a1469f44b8b83d969f2e62b,
         type: 3}
       propertyPath: m_Name
       value: ChivesSlices (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1468555304007284944, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647881921328901380, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 6999205114154860490, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 7867875389053224122, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516503206285665647, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 8800833600915480095, guid: 2cc017259a1469f44b8b83d969f2e62b,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -525,12 +600,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 459035700889843367}
     m_Modifications:
+    - target: {fileID: 999394017541573841, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1468555304007284944, guid: 2cc017259a1469f44b8b83d969f2e62b,
         type: 3}
       propertyPath: m_Name
       value: ChivesSlices (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1468555304007284944, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647881921328901380, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 6999205114154860490, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 7867875389053224122, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516503206285665647, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 8800833600915480095, guid: 2cc017259a1469f44b8b83d969f2e62b,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -716,12 +821,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 459035700889843367}
     m_Modifications:
+    - target: {fileID: 999394017541573841, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1468555304007284944, guid: 2cc017259a1469f44b8b83d969f2e62b,
         type: 3}
       propertyPath: m_Name
       value: ChivesSlices (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1468555304007284944, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647881921328901380, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 6999205114154860490, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 7867875389053224122, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516503206285665647, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 8800833600915480095, guid: 2cc017259a1469f44b8b83d969f2e62b,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -817,12 +952,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 459035700889843367}
     m_Modifications:
+    - target: {fileID: 999394017541573841, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1468555304007284944, guid: 2cc017259a1469f44b8b83d969f2e62b,
         type: 3}
       propertyPath: m_Name
       value: ChivesSlices
       objectReference: {fileID: 0}
     - target: {fileID: 1468555304007284944, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647881921328901380, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 6999205114154860490, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 7867875389053224122, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516503206285665647, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 8800833600915480095, guid: 2cc017259a1469f44b8b83d969f2e62b,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1098,6 +1263,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 459035700889843367}
     m_Modifications:
+    - target: {fileID: 573873130214973696, guid: 89ee1c6c7eb1e8544a7de5fff3afebcc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086911425694220501, guid: 89ee1c6c7eb1e8544a7de5fff3afebcc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     - target: {fileID: 3599152026762954283, guid: 89ee1c6c7eb1e8544a7de5fff3afebcc,
         type: 3}
       propertyPath: m_RootOrder
@@ -1199,12 +1374,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 459035700889843367}
     m_Modifications:
+    - target: {fileID: 999394017541573841, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1468555304007284944, guid: 2cc017259a1469f44b8b83d969f2e62b,
         type: 3}
       propertyPath: m_Name
       value: ChivesSlices
       objectReference: {fileID: 0}
     - target: {fileID: 1468555304007284944, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647881921328901380, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 6999205114154860490, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 7867875389053224122, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516503206285665647, guid: 2cc017259a1469f44b8b83d969f2e62b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 8800833600915480095, guid: 2cc017259a1469f44b8b83d969f2e62b,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1450,6 +1655,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 459035700889843367}
     m_Modifications:
+    - target: {fileID: 573873130214973696, guid: 89ee1c6c7eb1e8544a7de5fff3afebcc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 917923154216270778, guid: 89ee1c6c7eb1e8544a7de5fff3afebcc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1460,6 +1670,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.034
       objectReference: {fileID: 0}
+    - target: {fileID: 2086911425694220501, guid: 89ee1c6c7eb1e8544a7de5fff3afebcc,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     - target: {fileID: 3599152026762954283, guid: 89ee1c6c7eb1e8544a7de5fff3afebcc,
         type: 3}
       propertyPath: m_RootOrder
